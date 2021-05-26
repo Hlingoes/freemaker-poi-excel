@@ -1,0 +1,2656 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>chenxf</Author>
+  <LastAuthor>微软用户</LastAuthor>
+  <LastPrinted>2003-08-08T06:34:20Z</LastPrinted>
+  <Created>2003-05-26T02:16:33Z</Created>
+  <LastSaved>2021-05-22T07:39:28Z</LastSaved>
+  <Company>zhuotou</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6195</WindowHeight>
+  <WindowWidth>11715</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <TabRatio>599</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s40" ss:Name="差">
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#9C0006"/>
+   <Interior ss:Color="#FFC7CE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41" ss:Name="常规_学校样表">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="MS Sans Serif" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s42" ss:Name="超链接">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s43" ss:Name="好">
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#006100"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s52" ss:Name="千位分隔">
+   <NumberFormat ss:Format="_ * #,##0.00_ ;_ * \-#,##0.00_ ;_ * &quot;-&quot;??_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="m2187522263936" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#9C0006"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2187517429868">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="m2187517429948">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="m2187517431284">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m2187517431304">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="m2187517431324">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="m2187517431344">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="m2187517431364">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="m2187517431384">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m2187517431404">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m2187517430452">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m2187517430472">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m2187517430492">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="m2187517430512">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="m2187517430532">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="m2187517430552">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="m2187517430572">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="18" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s72">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s76">
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#0000FF"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s78" ss:Parent="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#0000FF"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s80" ss:Parent="s52">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s52">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s41">
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s83" ss:Parent="s52">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s84" ss:Parent="s41">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s85" ss:Parent="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s86" ss:Parent="s41">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Vertical="Bottom" ss:ShrinkToFit="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s88" ss:Parent="s41">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s89" ss:Parent="s52">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Vertical="Bottom" ss:ShrinkToFit="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:ShrinkToFit="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Vertical="Bottom" ss:ShrinkToFit="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s93" ss:Parent="s41">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Vertical="Bottom" ss:ShrinkToFit="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s95" ss:Parent="s41">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s96" ss:Parent="s52">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s97" ss:Parent="s41">
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s98" ss:Parent="s52">
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s99" ss:Parent="s41">
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s100" ss:Parent="s41">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s101" ss:Parent="s52">
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s102" ss:Parent="s52">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s103" ss:Parent="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s104" ss:Parent="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman"/>
+  </Style>
+  <Style ss:ID="s105" ss:Parent="s52">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s106" ss:Parent="s52">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s107" ss:Parent="s52">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s108" ss:Parent="s52">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s109" ss:Parent="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s110" ss:Parent="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000" ss:Bold="1"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s111" ss:Parent="s41">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s113" ss:Parent="s42">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#0000FF"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s115" ss:Parent="s41">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="14"/>
+  </Style>
+  <Style ss:ID="s116" ss:Parent="s52">
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+  </Style>
+  <Style ss:ID="s139" ss:Parent="s43">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s140">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s141">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s147" ss:Parent="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="14" ss:Color="#0000FF"/>
+   <NumberFormat ss:Format="_ * #,##0.00_ ;_ * \-#,##0.00_ ;_ * &quot;-&quot;??_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s149" ss:Parent="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="14" ss:Color="#0000FF"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s151" ss:Parent="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="16" ss:Color="#0000FF"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s178" ss:Parent="s42">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#FF0000"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s204">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Bold="1"/>
+   <Interior ss:Color="#AEAAAA" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="目录">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="88" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s68" ss:DefaultColumnWidth="81"
+   ss:DefaultRowHeight="14.25">
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="30"/>
+   <Column ss:StyleID="s68" ss:Width="63"/>
+   <Column ss:StyleID="s68" ss:Width="226.5"/>
+   <Column ss:StyleID="s68" ss:Width="63"/>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">财务报表体系</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s70">
+    <Cell ss:StyleID="s204"><Data ss:Type="String">序号</Data></Cell>
+    <Cell ss:StyleID="s204"><Data ss:Type="String">报表种类</Data></Cell>
+    <Cell ss:StyleID="s204"><Data ss:Type="String">具体项目</Data></Cell>
+    <Cell ss:StyleID="s204"><Data ss:Type="String">报表序号</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:MergeDown="2" ss:StyleID="s140"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s140"><Data ss:Type="String">基本报表</Data></Cell>
+    <Cell ss:StyleID="s178" ss:HRef="#资产负债表!A1"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#FF0000">资产负债表</Font><Font
+       html:Face="Arial" x:Family="Swiss" html:Color="#FF0000">&#45;-</Font><Font
+       html:Color="#FF0000">月报</Font></ss:Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m2187522263936"><Data ss:Type="String">表1</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s178" ss:HRef="#利润表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#FF0000">利润表</Font><Font html:Face="Arial" x:Family="Swiss"
+       html:Color="#FF0000">&#45;-</Font><Font html:Color="#FF0000">月报</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s178" ss:HRef="#现金流量表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#FF0000">现金流量表</Font><Font html:Face="Arial" x:Family="Swiss"
+       html:Color="#FF0000">&#45;-</Font><Font html:Color="#FF0000">月报</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:MergeDown="4" ss:StyleID="s141"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:MergeDown="4" ss:StyleID="s141"><Data ss:Type="String">往来报表</Data></Cell>
+    <Cell ss:StyleID="s113" ss:HRef="#应收帐款明细及帐龄分析表!A1"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#0000FF">应收帐款明细及帐龄分析表</Font><Font
+       html:Face="Arial" x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font
+       html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-1</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#应付帐款明细及帐龄分析表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">应付帐款明细及帐龄分析表</Font><Font html:Face="Arial"
+       x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-2</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#其他应收款明细及帐龄分析表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">其他应收款明细及帐龄明细表</Font><Font html:Face="Arial"
+       x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-3</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#其他应付款明细及帐龄分析表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">其他应付款明细及帐龄明细表</Font><Font html:Face="Arial"
+       x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-4</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#预收、预付帐款明细表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">预收预付帐款明细表</Font><Font html:Face="Arial"
+       x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-5</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:MergeDown="3" ss:StyleID="s141"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s141"><Data ss:Type="String">资金报表</Data></Cell>
+    <Cell ss:StyleID="s113" ss:HRef="#短期借款、长期借款明细表!A1"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#0000FF">短期借款、长期借款明细表</Font><Font
+       html:Face="Arial" x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font
+       html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-6</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#实收资本明细表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">实收资本明细表</Font><Font html:Face="Arial" x:Family="Swiss"
+       html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-7</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#资金周报表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">资金周报表（按帐户）</Font><Font html:Face="Arial"
+       x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">周报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-8</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#收支月报表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">收支月报表</Font><Font html:Face="Arial" x:Family="Swiss"
+       html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-9</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:MergeDown="3" ss:StyleID="s140"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s140"><Data ss:Type="String">资产报表</Data></Cell>
+    <Cell ss:StyleID="s113" ss:HRef="#短期投资明细表!A1"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#0000FF">短期投资明细表</Font><Font
+       html:Face="Arial" x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font
+       html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-10</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#长期投资明细表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">长期投资明细表</Font><Font html:Face="Arial" x:Family="Swiss"
+       html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-11</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#固定资产明细表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">固定资产明细表</Font><Font html:Face="Arial" x:Family="Swiss"
+       html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-12</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#无形资产、长期待摊费用明细表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">无形资产、长期待摊费用明细表</Font><Font html:Face="Arial"
+       x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">1-13</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:MergeDown="3" ss:StyleID="m2187517429948"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="m2187517429868"><Data ss:Type="String">营运报表</Data></Cell>
+    <Cell ss:StyleID="s113" ss:HRef="#收入结构明细表!A1"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#0000FF">收入结构明细表</Font><Font
+       html:Face="Arial" x:Family="Swiss" html:Color="#0000FF">&#45;-</Font><Font
+       html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">2-1</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#投资收益明细表!A1"><Data
+      ss:Type="String">投资收益明细表</Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">2-2</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#费用结构表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">费用结构明细表</Font><Font html:Face="Arial" x:Family="Swiss"
+       html:Color="#0000FF">&#45;-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">2-3</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:Index="3" ss:StyleID="s113" ss:HRef="#高管人员费用明细表!A1"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font
+       html:Color="#0000FF">高级管理人员费用明细表</Font><Font html:Face="Arial"
+       x:Family="Swiss" html:Color="#0000FF">-</Font><Font html:Color="#0000FF">月报</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s139"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#006100">表</Font><Font
+       html:Color="#008000">2-4</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s75"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1"/>
+    <Header x:Margin="0.51181102362204722"/>
+    <Footer x:Margin="0.51181102362204722"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0.74803149606299213"
+     x:Right="0.74803149606299213" x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="资产负债表">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="42" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s101">
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="93.75" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="144.75"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="93.75"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:MergeAcross="5" ss:StyleID="s147" ss:HRef="#目录!C3"><Data
+      ss:Type="String">资产负债表</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s102"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">表</Font><Font
+        html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">1</Font></B></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s76"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">公司名称：<Font html:Face="Times New Roman"
+       x:Family="Roman">                                                                                                          </Font><Font>年</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">    </Font><Font>月</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">    </Font><Font>日</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">                                                                                                                        </Font><Font>单位：元</Font></ss:Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s83"/>
+   </Row>
+   <Row ss:StyleID="s104">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">资产类</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">年初数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">期末数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">负债及权益类</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">年初数</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">期末数</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">流动资产：</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s105"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">流动负债<Font html:Face="Times New Roman"
+       x:Family="Roman">:</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">货币资金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">短期借款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">短期投资</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">应付票据</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">应收票据</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">应付帐款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">应收股利</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">预收帐款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">应收利息</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">其他应付款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">应收帐款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">应付工资</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">预付帐款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">应付福利费</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">应收补贴款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">应付股利</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">其他应收款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">应交税金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">存货</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">其他未交款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">待摊费用</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">预提费用</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">一年内到期的长期债券投资</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">预计负债</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">其他流动资产</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">一年内到期的长期负债</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">流动资产合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">其他流动负债</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s105"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">长期投资<Font html:Face="Times New Roman"
+       x:Family="Roman">:</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">流动负债合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">长期股权投资</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s105"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">长期负债<Font html:Face="Times New Roman"
+       x:Family="Roman">:</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">长期债权投资</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">长期借款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">长期投资合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">应付债券</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:StyleID="s108">
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">其中：合并价差</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">长期应付款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s105"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">固定资产<Font html:Face="Times New Roman"
+       x:Family="Roman">:</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">专项应付款</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">固定资产原价</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">其他长期负债</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">减</Font><Font>:</Font><Font html:Face="宋体" x:CharSet="134">累计折旧</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">长期负债合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">固定资产净值</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">递延税项：</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">减：固定资产减值准备</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s107"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B>    <Font html:Face="宋体"
+        x:CharSet="134">递延税款贷项</Font></B></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">工程物资</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">负债合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">在建工程</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">少数股东权益</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">固定资产清理</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">所有者权益或股东权益：</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">固定资产合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">实收资本</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:StyleID="s108">
+    <Cell ss:StyleID="s105"><Data ss:Type="String">无形资产及其他资产</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">        <Font html:Face="宋体"
+       x:CharSet="134">减：已归还投资</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">无形资产</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">实收资本净额</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">长期待摊费用</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">资本公积</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">其他长期资产</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">   <Font html:Face="宋体"
+       x:CharSet="134">盈余公积</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">无形资产及其他资产合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">       <Font html:Face="宋体"
+       x:CharSet="134">其中：法定公益金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:StyleID="s108">
+    <Cell ss:StyleID="s105"><Data ss:Type="String">递延税项：</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s89"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">    <Font html:Face="宋体"
+       x:CharSet="134">未分配利润</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:StyleID="s108">
+    <Cell ss:StyleID="s106"><Data ss:Type="String">递延税款借项</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">所有者权益合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:StyleID="s108">
+    <Cell ss:StyleID="s109"><Data ss:Type="String">资产总计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">负债及权益合计</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s116"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">单位负责人：<Font html:Face="Times New Roman"
+       x:Family="Roman">                                                         </Font><Font>财务负责人：</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">                            </Font><Font>制表人：</Font></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1"/>
+    <Header x:Margin="0.15748031496062992"/>
+    <Footer x:Margin="0.16"/>
+    <PageMargins x:Bottom="0.16" x:Left="0.74803149606299213"
+     x:Right="0.23622047244094491" x:Top="0.23622047244094491"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="现金流量表">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="72" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s82" ss:DefaultRowHeight="14.25">
+   <Column ss:StyleID="s82" ss:Width="330"/>
+   <Column ss:StyleID="s82" ss:Width="28.5"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s82" ss:AutoFitWidth="0" ss:Width="87.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="22.5">
+    <Cell ss:MergeAcross="3" ss:StyleID="s149" ss:HRef="#目录!C5"><Data
+      ss:Type="String">现金流量表</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s102"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">表</Font><Font
+        html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">3</Font></B></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s76"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">公司名称：<Font html:Face="Times New Roman"
+       x:Family="Roman">                                                                                   </Font><Font>年</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">    </Font><Font>月</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">    </Font><Font>日</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">                                                                                          </Font><Font>单位：元</Font></ss:Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">项目</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">行次</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">本月数</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">本年累计数</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">一、经营活动产生的现金流量：</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1.<Font html:Face="宋体"
+       x:CharSet="134">销售商品、提供劳务收到的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">2.<Font html:Face="宋体"
+       x:CharSet="134">收到税费返还</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3.<Font html:Face="宋体"
+       x:CharSet="134">收到的其他与经营活动有关的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">现金流入小计</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1.<Font html:Face="宋体"
+       x:CharSet="134">购买商品、接受劳务支付的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">2.<Font html:Face="宋体"
+       x:CharSet="134">支付给职工对职工支付的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3.<Font html:Face="宋体"
+       x:CharSet="134">支付的各项税费</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">4.<Font html:Face="宋体"
+       x:CharSet="134">支付的其他与经营活动有关的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">现金流出小计</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s92"><Data ss:Type="String">经营活动产生的现金流量净额</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">二、投资活动产生的现金流量：</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s93">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1.<Font html:Face="宋体"
+       x:CharSet="134">收回投资所收到的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s111"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">2.<Font html:Face="宋体"
+       x:CharSet="134">取得投资收益所收到的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3.<Font html:Face="宋体"
+       x:CharSet="134">处理固定资产、无形资产和其他长期资产而收到的现金净额</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">4.<Font html:Face="宋体"
+       x:CharSet="134">收到的其他与投资活动有关的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s93">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">现金流入小计</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s111"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1.<Font html:Face="宋体"
+       x:CharSet="134">购建固定资产、无形资产和其他长期资产所支付的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">2.<Font html:Face="宋体"
+       x:CharSet="134">投资所支付的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3.<Font html:Face="宋体"
+       x:CharSet="134">支付的其他与投资活动有关的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">现金流出小计</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s92"><Data ss:Type="String">投资活动产生的现金流量净额</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">三、筹资活动产生的现金流量：</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1.<Font html:Face="宋体"
+       x:CharSet="134">吸收投资所收到的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3.<Font html:Face="宋体"
+       x:CharSet="134">借款所收到的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3.<Font html:Face="宋体"
+       x:CharSet="134">收到的其他与筹资活动有关的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s93">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">现金流入小计</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s111"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1.<Font html:Face="宋体"
+       x:CharSet="134">偿还债务所支付的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">2.<Font html:Face="宋体"
+       x:CharSet="134">分配股利或利润或偿付利息所支付的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3.<Font html:Face="宋体"
+       x:CharSet="134">支付的其他与筹资活动有关的现金</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">现金流出小计</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s93">
+    <Cell ss:StyleID="s92"><Data ss:Type="String">筹资活动产生的现金净流量净额</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s111"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s93">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">四、汇率变动对现金的影响额</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s111"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s93">
+    <Cell ss:StyleID="s94"><Data ss:Type="String">五、现金及现金等价物净增加额</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s111"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s93">
+    <Cell ss:StyleID="s116"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">单位负责人：<Font html:Face="Times New Roman"
+       x:Family="Roman">                   </Font><Font>财务负责人：</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">                            </Font><Font>制表人：</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s98"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s100">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">补充资料</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s98"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1<Font html:Face="宋体"
+       x:CharSet="134">、将净利润调节为经营活动的现金流量</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">净利润</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">加：计提的资产减值准备</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">              <Font html:Face="宋体"
+       x:CharSet="134">固定资产折旧</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">              <Font html:Face="宋体"
+       x:CharSet="134">无形资产摊销</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">长期待摊费用摊销</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">待摊费用减少（减：增加）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">              <Font html:Face="宋体"
+       x:CharSet="134">预提费用的增加（减：减少）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">              <Font html:Face="宋体"
+       x:CharSet="134">处置固定资产、无形资产和其他长期资产的损失（减：收益）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">              <Font html:Face="宋体"
+       x:CharSet="134">固定资产报废损失</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">财务费用</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">投资损失（减：收益）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">递延税款贷项（减：借项）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">存货的减少（减：增加）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">经营性应收项目的减少（减：增加）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">经营性应付项目的增加（减：减少）</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">其他</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">             <Font html:Face="宋体"
+       x:CharSet="134">少数股东本期收益</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">       <Font html:Face="宋体"
+       x:CharSet="134">经营活动产生的现金流量净额</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">2<Font html:Face="宋体"
+       x:CharSet="134">、不涉及现金收支的投资和筹资活动</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">       <Font html:Face="宋体"
+       x:CharSet="134">债务转为资本</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">        <Font html:Face="宋体"
+       x:CharSet="134">一年内到期的可转换公司债券</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">        <Font html:Face="宋体"
+       x:CharSet="134">融资租入固定资产</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">       <Font html:Face="宋体"
+       x:CharSet="134">其他</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3<Font html:Face="宋体"
+       x:CharSet="134">、现金及等价物净增加情况：</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">现金的期末余额</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">减：现金的期初余额</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">加：现金等价物的期末余额</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">减：现金等价物的期初余额</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s90"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">      <Font html:Face="宋体"
+       x:CharSet="134">现金及现金等价物的净增加额</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:Index="72" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s116"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">单位负责人：<Font html:Face="Times New Roman"
+       x:Family="Roman">                   </Font><Font>财务负责人：</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">                            </Font><Font>制表人：</Font></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1"/>
+    <Header x:Margin="0.19685039370078741"/>
+    <Footer x:Margin="0.16"/>
+    <PageMargins x:Bottom="0.16" x:Left="0.27559055118110237"
+     x:Right="0.15748031496062992" x:Top="0.19685039370078741"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>97</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageBreakZoom>60</PageBreakZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PageBreaks xmlns="urn:schemas-microsoft-com:office:excel">
+   <RowBreaks>
+    <RowBreak>
+     <Row>39</Row>
+    </RowBreak>
+   </RowBreaks>
+  </PageBreaks>
+ </Worksheet>
+ <Worksheet ss:Name="应收帐款明细及帐龄分析表">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="24" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="20.0625">
+   <Column ss:AutoFitWidth="0" ss:Width="147.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75" ss:Span="1"/>
+   <Column ss:Index="4" ss:Width="33"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:Width="33"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:Width="33"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:Width="33"/>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="9" ss:StyleID="s151" ss:HRef="#目录!C6"><Data
+      ss:Type="String">应收帐款明细及帐龄分析表</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75" ss:StyleID="s76">
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:Index="10" ss:StyleID="s78"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B>表<Font html:Face="Arial"
+        x:Family="Swiss">1-1</Font></B></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s72"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">公司名称：<Font html:Face="Times New Roman"
+       x:Family="Roman">                                                                            </Font><Font>年</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">    </Font><Font>月</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">    </Font><Font>日</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">                                                                                   </Font><Font>单位：元</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeDown="2" ss:StyleID="m2187517431404"><Data ss:Type="String">对方名称</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m2187517431384"><Data ss:Type="String">期末余额</Data></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="m2187517431284"><Data ss:Type="String">帐龄</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="m2187517431324"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">1<Font html:Face="宋体"
+       x:CharSet="134">年以内</Font></ss:Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m2187517431344"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1-2<Font html:Face="宋体"
+       x:CharSet="134">年</Font></ss:Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m2187517431364"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">2-3<Font html:Face="宋体"
+       x:CharSet="134">年</Font></ss:Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m2187517431304"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3<Font html:Face="宋体"
+       x:CharSet="134">年以上</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:Index="3" ss:StyleID="s66"><Data ss:Type="String">金额</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">比例</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">金额</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">比例</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">金额</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">比例</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">金额</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">比例</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">一、外部单位及个人：</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">二、内部单位：</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">合计</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:Index="24" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><U>说明：往来款项的帐龄分析仅针对集团外单位分析，对于集团内单位的往来款项不必进行帐龄分析，只填写明细余额即可。</U></B></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1"/>
+    <Header x:Margin="0.51181102362204722"/>
+    <Footer x:Margin="0.51181102362204722"/>
+    <PageMargins x:Bottom="0.56000000000000005" x:Left="0.74803149606299213"
+     x:Right="0.74803149606299213" x:Top="0.6"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>27</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="其他应付款明细及帐龄分析表">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="24" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="20.0625">
+   <Column ss:AutoFitWidth="0" ss:Width="147.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75" ss:Span="1"/>
+   <Column ss:Index="4" ss:Width="33"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:Width="33"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:Width="33"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:Width="33"/>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="9" ss:StyleID="s151" ss:HRef="#目录!C9"><Data
+      ss:Type="String">其他应付款明细及帐龄分析表</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75" ss:StyleID="s76">
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s77"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#0000FF">表</Font><Font
+       html:Face="Arial" x:Family="Swiss" html:Color="#0000FF">1-4</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s72"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">公司名称：<Font html:Face="Times New Roman"
+       x:Family="Roman">                                                               </Font><Font>年</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">    </Font><Font>月</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">    </Font><Font>日</Font><Font
+       html:Face="Times New Roman" x:Family="Roman">                                                               </Font><Font>单位：元</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeDown="2" ss:StyleID="m2187517430452"><Data ss:Type="String">对方名称</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m2187517430472"><Data ss:Type="String">期末余额</Data></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="m2187517430492"><Data ss:Type="String">帐龄</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="m2187517430512"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">1<Font html:Face="宋体"
+       x:CharSet="134">年以内</Font></ss:Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m2187517430532"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">1-2<Font html:Face="宋体"
+       x:CharSet="134">年</Font></ss:Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m2187517430552"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">2-3<Font html:Face="宋体"
+       x:CharSet="134">年</Font></ss:Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m2187517430572"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">3<Font html:Face="宋体"
+       x:CharSet="134">年以上</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:Index="3" ss:StyleID="s66"><Data ss:Type="String">金额</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">比例</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">金额</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">比例</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">金额</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">比例</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">金额</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">比例</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">一、外部单位及个人：</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">二、集团内部单位：</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">三、其他</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">合计</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:Index="24" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><B><U>说明：往来款项的帐龄分析仅针对集团外单位分析，对于集团内单位的往来款项不必进行帐龄分析，只填写明细余额即可。</U></B></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1"/>
+    <Header x:Margin="0.51181102362204722"/>
+    <Footer x:Margin="0.51181102362204722"/>
+    <PageMargins x:Bottom="0.59" x:Left="0.74803149606299213"
+     x:Right="0.74803149606299213" x:Top="0.48"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
