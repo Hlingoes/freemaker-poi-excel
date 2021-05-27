@@ -185,7 +185,7 @@ public class ExcelWriter {
                 Cell cell = row.createCell(startIndex);
                 String styleId = excelCellInfo.getStyleID();
                 CellStyle cellStyle = styleMap.get(styleId);
-                setCellValue(excelCellInfo.getExcelData(), cell, cellStyle);
+                setCellValue(excelCellInfo.getExcelData(), cell);
                 cell.setCellStyle(cellStyle);
                 // 单元格注释`
                 if (excelCellInfo.getExcelComment() != null) {
@@ -378,10 +378,9 @@ public class ExcelWriter {
      *
      * @param excelData:
      * @param cell:
-     * @param dataStyle:
      * @return void
      */
-    private static void setCellValue(ExcelData excelData, Cell cell, CellStyle dataStyle) {
+    private static void setCellValue(ExcelData excelData, Cell cell) {
         if (null == excelData) {
             return;
         }

@@ -4,15 +4,13 @@ import com.henry.cn.exportexcel.excel.*;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.poi.hssf.usermodel.HSSFDataFormat;
 import org.apache.poi.hssf.usermodel.HSSFPalette;
 import org.apache.poi.hssf.usermodel.HSSFRichTextString;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFCellStyle;
-import org.apache.poi.xssf.usermodel.XSSFColor;
-import org.apache.poi.xssf.usermodel.XSSFFont;
-import org.apache.poi.xssf.usermodel.XSSFRichTextString;
+import org.apache.poi.xssf.usermodel.*;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -425,7 +423,11 @@ public class ExcelXmlReader {
         String format = numberFormat.attributeValue("Format");
         if (StringUtils.isNotEmpty(format)) {
             DataFormat dataFormat = wb.createDataFormat();
-            cellStyle.setDataFormat(dataFormat.getFormat(format));
+            if ("Standard".equals(format)) {
+                cellStyle.setDataFormat(dataFormat.getFormat("#,##0.00"));
+            } else {
+                cellStyle.setDataFormat(dataFormat.getFormat("0%"));
+            }
         }
     }
 
@@ -649,7 +651,6 @@ public class ExcelXmlReader {
         }
         ExcelComment excelComment = new ExcelComment();
         String author = commentElement.attributeValue("Author");
-        Element fontElement = commentElement.element("Font");
         Element dataElement = commentElement.element("Data");
         if (ObjectUtils.isNotEmpty(dataElement)) {
             ExcelData excelData = new ExcelData();
