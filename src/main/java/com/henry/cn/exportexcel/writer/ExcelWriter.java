@@ -12,15 +12,20 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.poi.hssf.usermodel.HSSFClientAnchor;
 import org.apache.poi.hssf.usermodel.HSSFRichTextString;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.ss.util.RegionUtil;
 import org.apache.poi.xssf.usermodel.XSSFClientAnchor;
+import org.apache.poi.xssf.usermodel.XSSFRichTextString;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.io.SAXReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.system.ApplicationHome;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
@@ -40,6 +45,8 @@ public class ExcelWriter {
 
     private static Configuration configuration = new Configuration(Configuration.VERSION_2_3_28);
 
+    private static File exportDir = null;
+
     static {
         configuration.setDefaultEncoding("UTF-8");
         configuration.setTemplateUpdateDelayMilliseconds(0);
@@ -50,9 +57,15 @@ public class ExcelWriter {
         // 获取单个文件
         Resource resource = resolver.getResource("template");
         try {
-            File dir = resource.getFile();
-            configuration.setDirectoryForTemplateLoading(dir);
-            log.info("template dir: {}", dir.getAbsolutePath());
+            File templateDir = resource.getFile();
+            configuration.setDirectoryForTemplateLoading(templateDir);
+            log.info("template dir: {}", templateDir.getAbsolutePath());
+
+            ApplicationHome appHome = new ApplicationHome();
+            File homeDir = appHome.getDir();
+            exportDir = FileUtils.getFile(homeDir, "export_temp");
+            FileUtils.forceMkdir(exportDir);
+            log.info("exportDir: {}", exportDir.getAbsolutePath());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -60,62 +73,80 @@ public class ExcelWriter {
     }
 
     /**
-     * 导出Excel到指定文件中
-     *
-     * @param dataMap      数据源
-     * @param templateName 模板名称（包含文件后缀名）
-     * @param file         文件完整路径
-     * @author 大脑补丁 on 2020-04-05 11:51
-     */
-    public static void writeFile(Map dataMap, String templateName, File file) {
-        try {
-            FileOutputStream outputStream = new FileOutputStream(file);
-            Template template = configuration.getTemplate(templateName, "UTF-8");
-            OutputStreamWriter outputWriter = new OutputStreamWriter(outputStream, "UTF-8");
-            Writer writer = new BufferedWriter(outputWriter);
-            template.process(dataMap, writer);
-            writer.flush();
-            writer.close();
-            outputStream.close();
-            log.info("temp file success: {}", file.getAbsolutePath());
-        } catch (Exception e) {
-            log.info("temp file fail: {}", file.getAbsolutePath(), e);
-        }
-    }
-
-    public static void writeExcel(Workbook wb, Map dataMap, String templateName, File file) {
-        File xmlFile = null;
-        try {
-            xmlFile = writeTempXml(dataMap, templateName);
-            writeWorkbook(wb, dataMap, xmlFile);
-            writeExcel(wb, file);
-            log.info("导出成功,导出到目录：{}", file.getAbsoluteFile());
-        } catch (Exception e) {
-            log.info("导出失败：{}", file.getAbsoluteFile(), e);
-        } finally {
-            FileUtils.deleteQuietly(xmlFile);
-        }
-    }
-
-    /**
-     * description: 生成带图片的excel
+     * description: 生成2003版的xls文件
      *
      * @param dataMap
      * @param templateName
-     * @param file
-     * @param excelImages
+     * @param fileName
      * @return void
-     * @author Hlingoes 2021/5/24
+     * @author Hlingoes 2021/5/28
      */
-    public static void writeExcel(Workbook wb, Map dataMap, String templateName, File file,
-                                  List<ExcelImage> excelImages) {
+    public static void writeExcel2003(Map dataMap, String templateName, String fileName) {
+        HSSFWorkbook wb = new HSSFWorkbook();
+        File file = FileUtils.getFile(exportDir, fileName + ".xls");
+        writeExcel(wb, dataMap, templateName, file);
+    }
+
+    /**
+     * description: 生成2003版带图片的xls文件
+     *
+     * @param dataMap
+     * @param templateName
+     * @param fileName
+     * @param images
+     * @return void
+     * @author Hlingoes 2021/5/29
+     */
+    public static void writeExcel2003(Map dataMap, String templateName, String fileName,
+                                      List<ExcelImage> images) {
+        HSSFWorkbook wb = new HSSFWorkbook();
+        File file = FileUtils.getFile(exportDir, fileName + ".xls");
+        writeExcel(wb, dataMap, templateName, file, images);
+    }
+
+    /**
+     * description: 生成2007版的xlsx文件
+     *
+     * @param dataMap
+     * @param templateName
+     * @param fileName
+     * @return void
+     * @author Hlingoes 2021/5/28
+     */
+    public static void writeExcel2007(Map dataMap, String templateName, String fileName) {
+        XSSFWorkbook wb = new XSSFWorkbook();
+        File file = FileUtils.getFile(exportDir, fileName + ".xlsx");
+        writeExcel(wb, dataMap, templateName, file);
+    }
+
+    /**
+     * description: 生成2007版带图片的xlsx文件
+     *
+     * @param dataMap
+     * @param templateName
+     * @param fileName
+     * @param images
+     * @return void
+     * @author Hlingoes 2021/5/29
+     */
+    public static void writeExcel2007(Map dataMap, String templateName, String fileName,
+                                      List<ExcelImage> images) {
+        XSSFWorkbook wb = new XSSFWorkbook();
+        File file = FileUtils.getFile(exportDir, fileName + ".xlsx");
+        writeExcel(wb, dataMap, templateName, file, images);
+    }
+
+    private static void writeExcel(Workbook wb, Map dataMap, String templateName, File file,
+                                   List<ExcelImage> images) {
         File xmlFile = null;
         try {
-            xmlFile = writeTempXml(dataMap, templateName);
-            writeWorkbook(wb, dataMap, xmlFile);
-            writeImageInExcel(wb, excelImages);
-            writeExcel(wb, file);
-            log.info("导出成功,导出到目录：{}", file.getAbsoluteFile());
+            xmlFile = writeXmlFile(dataMap, templateName);
+            writeData(wb, xmlFile);
+            writeImageInExcel(wb, images);
+            FileOutputStream outputStream = new FileOutputStream(file);
+            wb.write(outputStream);
+            outputStream.close();
+            log.info("导出成功, file: {}", file.getAbsoluteFile());
         } catch (Exception e) {
             log.info("导出失败：{}", file.getAbsoluteFile(), e);
         } finally {
@@ -123,13 +154,23 @@ public class ExcelWriter {
         }
     }
 
-    private static void writeExcel(Workbook wb, File file) throws IOException {
-        FileOutputStream outputStream = new FileOutputStream(file);
-        wb.write(outputStream);
-        outputStream.close();
+    private static void writeExcel(Workbook wb, Map dataMap, String templateName, File file) {
+        File xmlFile = null;
+        try {
+            xmlFile = writeXmlFile(dataMap, templateName);
+            writeData(wb, xmlFile);
+            FileOutputStream outputStream = new FileOutputStream(file);
+            wb.write(outputStream);
+            outputStream.close();
+            log.info("导出成功, file: {}", file.getAbsoluteFile());
+        } catch (Exception e) {
+            log.info("导出失败：{}", file.getAbsoluteFile(), e);
+        } finally {
+            FileUtils.deleteQuietly(xmlFile);
+        }
     }
 
-    private static void writeWorkbook(Workbook wb, Map dataMap, File xmlFile) throws DocumentException {
+    private static void writeData(Workbook wb, File xmlFile) throws DocumentException {
         SAXReader reader = new SAXReader();
         Document document = reader.read(xmlFile);
         Map<String, CellStyle> styleMap = ExcelXmlReader.readCellStyle(wb, document);
@@ -147,11 +188,25 @@ public class ExcelWriter {
         }
     }
 
-    private static File writeTempXml(Map dataMap, String templateName) {
+    /**
+     * 导出Excel到指定文件中
+     *
+     * @param dataMap      数据源
+     * @param templateName 模板名称（包含文件后缀名）
+     * @author 大脑补丁 on 2020-04-05 11:51
+     */
+    private static File writeXmlFile(Map dataMap, String templateName) throws Exception {
         String fileMark = DateFormatUtils.format(new Date(), "yyyyMMddHHmmss");
         String xmlPath = StringUtils.substringBefore(templateName, ".") + "_" + fileMark + ".xml";
         File xmlFile = FileUtils.getFile(xmlPath);
-        writeFile(dataMap, templateName, xmlFile);
+        FileOutputStream outputStream = new FileOutputStream(xmlFile);
+        Template template = configuration.getTemplate(templateName, "UTF-8");
+        OutputStreamWriter outputWriter = new OutputStreamWriter(outputStream, "UTF-8");
+        Writer writer = new BufferedWriter(outputWriter);
+        template.process(dataMap, writer);
+        writer.flush();
+        writer.close();
+        outputStream.close();
         return xmlFile;
     }
 
@@ -188,18 +243,30 @@ public class ExcelWriter {
                 setCellValue(excelCellInfo.getExcelData(), cell);
                 cell.setCellStyle(cellStyle);
                 // 单元格注释`
-                if (excelCellInfo.getExcelComment() != null) {
-                    ExcelData excelData = excelCellInfo.getExcelComment().getExcelData();
-                    Comment comment = sheet.createDrawingPatriarch()
-                            .createCellComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 3, 3, (short) 5, 6));
-                    comment.setString(new HSSFRichTextString(excelData.getText()));
-                    cell.setCellComment(comment);
-                }
+                setCellComment(sheet, excelCellInfo.getExcelComment(), cell);
                 // 合并单元格
                 startIndex = addCellRanges(createRowIndex, startIndex, cellRangeAddresses, excelCellInfo, cellStyle);
             }
         }
         return cellRangeAddresses;
+    }
+
+    private static void setCellComment(Sheet sheet, ExcelComment excelComment, Cell cell) {
+        if (ObjectUtils.isEmpty(excelComment)) {
+            return;
+        }
+        ExcelData excelData = excelComment.getExcelData();
+        Comment comment = null;
+        if (sheet instanceof XSSFSheet) {
+            comment = sheet.createDrawingPatriarch()
+                    .createCellComment(new XSSFClientAnchor(0, 0, 0, 0, (short) 3, 3, (short) 5, 6));
+            comment.setString(new XSSFRichTextString(excelData.getText()));
+        } else {
+            comment = sheet.createDrawingPatriarch()
+                    .createCellComment(new HSSFClientAnchor(0, 0, 0, 0, (short) 3, 3, (short) 5, 6));
+            comment.setString(new HSSFRichTextString(excelData.getText()));
+        }
+        cell.setCellComment(comment);
     }
 
     /**
@@ -249,7 +316,7 @@ public class ExcelWriter {
     }
 
     /**
-     * description: description: 将图片写入Excel(XLSX版)
+     * description: description: 将图片写入Excel
      *
      * @param wb
      * @param excelImages
@@ -272,23 +339,24 @@ public class ExcelWriter {
      */
     private static void writeImageInExcel(Workbook wb, ExcelImage excelImage) throws IOException {
         Sheet sheet = wb.getSheetAt(excelImage.getSheetIndex());
-        if (sheet != null) {
-            // 画图的顶级管理器，一个sheet只能获取一个
-            Drawing patriarch = sheet.createDrawingPatriarch();
-            // anchor存储图片的属性，包括在Excel中的位置、大小等信息
-            XSSFClientAnchor anchor = excelImage.getAnchorXlsx();
-            anchor.setAnchorType(ClientAnchor.AnchorType.DONT_MOVE_AND_RESIZE);
-            // 插入图片
-            String imagePath = excelImage.getImgPath();
-            // 将图片写入到byteArray中
-            ByteArrayOutputStream byteArrayOut = new ByteArrayOutputStream();
-            BufferedImage bufferImg = ImageIO.read(new File(imagePath));
-            // 图片扩展名
-            String imageType = imagePath.substring(imagePath.lastIndexOf(".") + 1, imagePath.length());
-            ImageIO.write(bufferImg, imageType, byteArrayOut);
-            // 通过poi将图片写入到Excel中
-            patriarch.createPicture(anchor, wb.addPicture(byteArrayOut.toByteArray(), Workbook.PICTURE_TYPE_JPEG));
+        if (ObjectUtils.isEmpty(sheet)) {
+            return;
         }
+        // 画图的顶级管理器，一个sheet只能获取一个
+        Drawing patriarch = sheet.createDrawingPatriarch();
+        // anchor存储图片的属性，包括在Excel中的位置、大小等信息
+        XSSFClientAnchor anchor = excelImage.getAnchorXlsx();
+        anchor.setAnchorType(ClientAnchor.AnchorType.DONT_MOVE_AND_RESIZE);
+        // 插入图片
+        String imagePath = excelImage.getImgPath();
+        // 将图片写入到byteArray中
+        ByteArrayOutputStream byteArrayOut = new ByteArrayOutputStream();
+        BufferedImage bufferImg = ImageIO.read(new File(imagePath));
+        // 图片扩展名
+        String imageType = imagePath.substring(imagePath.lastIndexOf(".") + 1, imagePath.length());
+        ImageIO.write(bufferImg, imageType, byteArrayOut);
+        // 通过poi将图片写入到Excel中
+        patriarch.createPicture(anchor, wb.addPicture(byteArrayOut.toByteArray(), Workbook.PICTURE_TYPE_JPEG));
     }
 
     /**

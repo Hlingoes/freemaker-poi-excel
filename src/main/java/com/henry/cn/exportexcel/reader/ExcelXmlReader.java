@@ -4,13 +4,15 @@ import com.henry.cn.exportexcel.excel.*;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.poi.hssf.usermodel.HSSFDataFormat;
 import org.apache.poi.hssf.usermodel.HSSFPalette;
 import org.apache.poi.hssf.usermodel.HSSFRichTextString;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.poi.xssf.usermodel.XSSFColor;
+import org.apache.poi.xssf.usermodel.XSSFFont;
+import org.apache.poi.xssf.usermodel.XSSFRichTextString;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -441,7 +443,7 @@ public class ExcelXmlReader {
             byte r = (byte) awtColor.getRed();
             byte g = (byte) awtColor.getGreen();
             byte b = (byte) awtColor.getBlue();
-            // index 在[8, 64]之间，可先区hash，再取绝对值，然后对50取模，再加8
+            // index 在[8, 64]之间，可先取hash，再取绝对值，然后对50取模，再加8
             short colorIndex = (short) (Math.toIntExact(Math.abs(color.hashCode()) % 50) + 8);
             customPalette.setColorAtIndex(colorIndex, r, g, b);
             Color cellColor = customPalette.getColor(colorIndex);
