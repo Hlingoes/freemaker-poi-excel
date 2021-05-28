@@ -1,11 +1,17 @@
-# freemaker-poi-excel
-支持复杂格式(包括图片，注释)的excel导出工具
+####实现的功能 
+1.支持Freemarker导出Excel的所有功能（完美导出复杂的合并单元格、合并行和列、颜色、字体等）。
 
-##### 1. 2021-05-27 添加复杂excel(带图片)的freemaker方法(适用于复杂样式的Excel数据导出,并不适合用作大量数据导出，大量数据导出使用easy excel)
+2.支持导出带有图片的Excel。
+
+3.支持多Sheet页导出。
+
+4.支持导出单元格注释。
+
+5.支持导出.xls、.xlsx格式（绝非通过.xml重命名实现。.xml重命名为.xls，会有弹框报错，不友好）。
 
 
 ---
-> 参考了众多博主的帖子，按照实际使用做了调整，一并感谢，共勉
+> 参考与引用
 > 1. [Freemarker整合poi导出带有图片的Excel教程](https://blog.csdn.net/x541211190/article/details/105675771)
 <br>
 ***
