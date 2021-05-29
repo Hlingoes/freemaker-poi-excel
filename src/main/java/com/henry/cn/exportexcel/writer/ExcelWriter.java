@@ -44,32 +44,56 @@ public class ExcelWriter {
     private static final Logger log = LoggerFactory.getLogger(ExcelXmlReader.class);
 
     private static Configuration configuration = new Configuration(Configuration.VERSION_2_3_28);
-
+    private static String charset = "UTF-8";
     private static File exportDir = null;
 
     static {
-        configuration.setDefaultEncoding("UTF-8");
+        configuration.setDefaultEncoding(charset);
         configuration.setTemplateUpdateDelayMilliseconds(0);
-        configuration.setEncoding(Locale.CHINA, "UTF-8");
+        configuration.setEncoding(Locale.CHINA, charset);
         configuration.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
+        configuration.setOutputEncoding(charset);
+        try {
+            initTemplateDir();
+            initExportDir();
+        } catch (IOException e) {
+            log.error("init Directory fail", e);
+        }
+    }
+
+    /**
+     * description: 重新设置模板所在目录
+     *
+     * @param templateDir
+     * @return void
+     * @author Hlingoes 2021/5/29
+     */
+    public static void setTemplateDir(File templateDir) {
+        try {
+            configuration.setDirectoryForTemplateLoading(templateDir);
+        } catch (IOException e) {
+            log.error("{}", e);
+        }
+    }
+
+    private static void initTemplateDir() throws IOException {
         // 读取resource下的文件
         PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
         // 获取单个文件
         Resource resource = resolver.getResource("template");
-        try {
-            File templateDir = resource.getFile();
+        File templateDir = resource.getFile();
+        if (ObjectUtils.isNotEmpty(templateDir)) {
             configuration.setDirectoryForTemplateLoading(templateDir);
-            log.info("template dir: {}", templateDir.getAbsolutePath());
-
-            ApplicationHome appHome = new ApplicationHome();
-            File homeDir = appHome.getDir();
-            exportDir = FileUtils.getFile(homeDir, "export_temp");
-            FileUtils.forceMkdir(exportDir);
-            log.info("exportDir: {}", exportDir.getAbsolutePath());
-        } catch (IOException e) {
-            e.printStackTrace();
+            log.info("default template dir: {}", templateDir.getAbsolutePath());
         }
-        configuration.setOutputEncoding("UTF-8");
+    }
+
+    private static void initExportDir() throws IOException {
+        ApplicationHome appHome = new ApplicationHome();
+        File homeDir = appHome.getDir();
+        exportDir = FileUtils.getFile(homeDir, "export_temp");
+        FileUtils.forceMkdir(exportDir);
+        log.info("exportDir: {}", exportDir.getAbsolutePath());
     }
 
     /**
@@ -84,6 +108,20 @@ public class ExcelWriter {
     public static void writeExcel2003(Map dataMap, String templateName, String fileName) {
         HSSFWorkbook wb = new HSSFWorkbook();
         File file = FileUtils.getFile(exportDir, fileName + ".xls");
+        writeExcel(wb, dataMap, templateName, file);
+    }
+
+    /**
+     * description: 生成2003版的xls文件
+     *
+     * @param dataMap
+     * @param templateName
+     * @param file
+     * @return void
+     * @author Hlingoes 2021/5/29
+     */
+    public static void writeExcel2003(Map dataMap, String templateName, File file) {
+        HSSFWorkbook wb = new HSSFWorkbook();
         writeExcel(wb, dataMap, templateName, file);
     }
 
@@ -105,6 +143,22 @@ public class ExcelWriter {
     }
 
     /**
+     * description: 生成2003版带图片的xls文件
+     *
+     * @param dataMap
+     * @param templateName
+     * @param file
+     * @param images
+     * @return void
+     * @author Hlingoes 2021/5/29
+     */
+    public static void writeExcel2003(Map dataMap, String templateName, File file,
+                                      List<ExcelImage> images) {
+        HSSFWorkbook wb = new HSSFWorkbook();
+        writeExcel(wb, dataMap, templateName, file, images);
+    }
+
+    /**
      * description: 生成2007版的xlsx文件
      *
      * @param dataMap
@@ -117,6 +171,36 @@ public class ExcelWriter {
         XSSFWorkbook wb = new XSSFWorkbook();
         File file = FileUtils.getFile(exportDir, fileName + ".xlsx");
         writeExcel(wb, dataMap, templateName, file);
+    }
+
+    /**
+     * description: 生成2007版的xlsx文件
+     *
+     * @param dataMap
+     * @param templateName
+     * @param file
+     * @return void
+     * @author Hlingoes 2021/5/28
+     */
+    public static void writeExcel2007(Map dataMap, String templateName, File file) {
+        XSSFWorkbook wb = new XSSFWorkbook();
+        writeExcel(wb, dataMap, templateName, file);
+    }
+
+    /**
+     * description: 生成2007版带图片的xlsx文件
+     *
+     * @param dataMap
+     * @param templateName
+     * @param file
+     * @param images
+     * @return void
+     * @author Hlingoes 2021/5/29
+     */
+    public static void writeExcel2007(Map dataMap, String templateName, File file,
+                                      List<ExcelImage> images) {
+        XSSFWorkbook wb = new XSSFWorkbook();
+        writeExcel(wb, dataMap, templateName, file, images);
     }
 
     /**
@@ -200,8 +284,8 @@ public class ExcelWriter {
         String xmlPath = StringUtils.substringBefore(templateName, ".") + "_" + fileMark + ".xml";
         File xmlFile = FileUtils.getFile(xmlPath);
         FileOutputStream outputStream = new FileOutputStream(xmlFile);
-        Template template = configuration.getTemplate(templateName, "UTF-8");
-        OutputStreamWriter outputWriter = new OutputStreamWriter(outputStream, "UTF-8");
+        Template template = configuration.getTemplate(templateName, charset);
+        OutputStreamWriter outputWriter = new OutputStreamWriter(outputStream, charset);
         Writer writer = new BufferedWriter(outputWriter);
         template.process(dataMap, writer);
         writer.flush();
