@@ -41,7 +41,7 @@ import java.util.*;
  * @date 2021/5/23 14:18
  */
 public class ExcelWriter {
-    private static final Logger log = LoggerFactory.getLogger(ExcelXmlReader.class);
+    private static final Logger log = LoggerFactory.getLogger(ExcelWriter.class);
 
     private static Configuration configuration = new Configuration(Configuration.VERSION_2_3_28);
     private static String charset = "UTF-8";
@@ -414,7 +414,7 @@ public class ExcelWriter {
     }
 
     /**
-     * description: 将图片写入Excel(XLSX版)
+     * description: 将图片写入Excel
      *
      * @param wb
      * @param excelImage
@@ -429,22 +429,21 @@ public class ExcelWriter {
         // 画图的顶级管理器，一个sheet只能获取一个
         Drawing patriarch = sheet.createDrawingPatriarch();
         // anchor存储图片的属性，包括在Excel中的位置、大小等信息
-        XSSFClientAnchor anchor = excelImage.getAnchorXlsx();
+        ClientAnchor anchor = excelImage.getAnchor();
         anchor.setAnchorType(ClientAnchor.AnchorType.DONT_MOVE_AND_RESIZE);
-        // 插入图片
-        String imagePath = excelImage.getImgPath();
         // 将图片写入到byteArray中
         ByteArrayOutputStream byteArrayOut = new ByteArrayOutputStream();
-        BufferedImage bufferImg = ImageIO.read(new File(imagePath));
+        BufferedImage bufferImg = ImageIO.read(excelImage.getImg());
         // 图片扩展名
-        String imageType = imagePath.substring(imagePath.lastIndexOf(".") + 1, imagePath.length());
+        String imagePath = excelImage.getImg().getAbsolutePath();
+        String imageType = StringUtils.substringAfterLast(imagePath, ".");
         ImageIO.write(bufferImg, imageType, byteArrayOut);
         // 通过poi将图片写入到Excel中
         patriarch.createPicture(anchor, wb.addPicture(byteArrayOut.toByteArray(), Workbook.PICTURE_TYPE_JPEG));
     }
 
     /**
-     * description: 添加合并单元格（XLSX格式）
+     * description: 添加合并单元格样式
      *
      * @param sheet
      * @param cellRangeAddresses

@@ -1,97 +1,67 @@
 package com.henry.cn.exportexcel.excel;
 
-import org.apache.poi.hssf.usermodel.HSSFClientAnchor;
-import org.apache.poi.xssf.usermodel.XSSFClientAnchor;
+import org.apache.poi.ss.usermodel.ClientAnchor;
 
+import java.io.File;
 import java.io.Serializable;
 
 /**
+ * @author 大脑补丁
  * @project freemarker-excel
  * @description: 自定义解析excel的图片解析类
- * @author 大脑补丁
  * @create 2020-04-14 16:54
  */
 public class ExcelImage implements Serializable {
 
-	/**
-	 * 图片地址
-	 */
-	private String imgPath;
+    /**
+     * 图片地址
+     */
+    private File img;
 
-	/**
-	 * sheet索引
-	 */
-	private Integer sheetIndex;
+    /**
+     * sheet索引
+     */
+    private Integer sheetIndex;
 
-	/**
-	 * 图片所在位置坐标（xls格式版，HSSFClientAnchor与XSSFClientAnchor只能二选一）
-	 */
-	private HSSFClientAnchor anchorXls;
+    /**
+     * 图片所在位置坐标
+     */
+    private ClientAnchor anchor;
 
-	/**
-	 * 图片所在位置坐标（xlsx格式版，XSSFClientAnchor与HSSFClientAnchor只能二选一）
-	 */
-	private XSSFClientAnchor anchorXlsx;
+    /**
+     * Excel图片参数对象
+     *
+     * @param img
+     * @param sheetIndex
+     * @param anchor
+     */
+    public ExcelImage(File img, Integer sheetIndex, ClientAnchor anchor) {
+        this.img = img;
+        this.sheetIndex = sheetIndex;
+        this.anchor = anchor;
+    }
 
-	private ExcelImage() {
+    public File getImg() {
+        return img;
+    }
 
-	}
+    public void setImg(File img) {
+        this.img = img;
+    }
 
-	/**
-	 * Excel图片参数对象(xlsx版)
-	 *
-	 * @param imgPath
-	 * @param sheetIndex
-	 * @param anchorXlsx
-	 */
-	public ExcelImage(String imgPath, Integer sheetIndex, XSSFClientAnchor anchorXlsx) {
-		this.imgPath = imgPath;
-		this.sheetIndex = sheetIndex;
-		this.anchorXlsx = anchorXlsx;
-	}
+    public Integer getSheetIndex() {
+        return sheetIndex;
+    }
 
-	/**
-	 * Excel图片参数对象(xls版)
-	 *
-	 * @param imgPath
-	 * @param sheetIndex
-	 * @param anchorXls
-	 */
-	public ExcelImage(String imgPath, Integer sheetIndex, HSSFClientAnchor anchorXls) {
-		this.imgPath = imgPath;
-		this.sheetIndex = sheetIndex;
-		this.anchorXls = anchorXls;
-	}
+    public void setSheetIndex(Integer sheetIndex) {
+        this.sheetIndex = sheetIndex;
+    }
 
-	public String getImgPath() {
-		return imgPath;
-	}
+    public ClientAnchor getAnchor() {
+        return anchor;
+    }
 
-	public void setImgPath(String imgPath) {
-		this.imgPath = imgPath;
-	}
-
-	public Integer getSheetIndex() {
-		return sheetIndex;
-	}
-
-	public void setSheetIndex(Integer sheetIndex) {
-		this.sheetIndex = sheetIndex;
-	}
-
-	public HSSFClientAnchor getAnchorXls() {
-		return anchorXls;
-	}
-
-	public void setAnchorXls(HSSFClientAnchor anchorXls) {
-		this.anchorXls = anchorXls;
-	}
-
-	public XSSFClientAnchor getAnchorXlsx() {
-		return anchorXlsx;
-	}
-
-	public void setAnchorXlsx(XSSFClientAnchor anchorXlsx) {
-		this.anchorXlsx = anchorXlsx;
-	}
+    public void setAnchor(ClientAnchor anchor) {
+        this.anchor = anchor;
+    }
 }
