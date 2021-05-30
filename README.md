@@ -6,7 +6,7 @@
 ##### 5.支持完美导出.xls、.xlsx格式，生成文件打开无报错提醒
 ##### 6.适用于生成复杂样式的Excel，不适用于大数据量导出
 
-#### 代码使用详见 [Freemarker生成复杂样式图片并无文件损坏的excel](https://www.cnblogs.com/Hlingoes/p/14828344.html)
+#### 代码[Hlingoes/freemaker-poi-excel](https://gitee.com/hlingoes/freemaker-poi-excel)使用详见 [Freemarker生成复杂样式图片并无文件损坏的excel](https://www.cnblogs.com/Hlingoes/p/14828344.html)
 
 ---
 > 参考与引用
